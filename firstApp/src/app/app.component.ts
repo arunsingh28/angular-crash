@@ -4,10 +4,11 @@ import { Title } from '@angular/platform-browser';
 
 import { HeaderComponent } from './components/header/header.component';
 import { GreetingComponent } from "./components/greeting/greeting.component";
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, GreetingComponent],
+  imports: [RouterOutlet, HeaderComponent, GreetingComponent,TwoWayBindingComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
